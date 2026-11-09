@@ -1,0 +1,9 @@
+name: min
+on:
+  push:
+    branches: [main]
+jobs:
+  min:
+    runs-on: windows-latest
+    steps:
+      - run: echo hello
